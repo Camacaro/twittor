@@ -1,6 +1,6 @@
 var url = window.location.href;
 // https://camacaro.github.io/twittor/
-var swLocation = '/twittor/'
+var swLocation = '/twittor/sw.js'
 
 // Registrar SW
 if( navigator.serviceWorker ) {
