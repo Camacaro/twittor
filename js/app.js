@@ -1,7 +1,15 @@
+var url = window.location.href;
+// https://camacaro.github.io/twittor/
+var swLocation = '/twittor/'
 
 // Registrar SW
 if( navigator.serviceWorker ) {
-    navigator.serviceWorker.register('/sw.js')
+
+    if( url.includes('localhost') ) {
+        swLocation = '/sw.js'
+    }
+
+    navigator.serviceWorker.register( swLocation )
 }
 
 

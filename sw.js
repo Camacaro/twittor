@@ -14,7 +14,7 @@ const CACHE_DYNAMIC_LIMIT = 50;
  * a mi considecarion, lo que sea parte de mi app
  */
 const APP_SHELL = [
-    '/',
+    // '/',
     'index.html',
     'css/style.css',
     'img/favicon.ico',
